@@ -17,7 +17,7 @@ const Skills = () => {
                 width={100}
                 height={100}
               />
-              <Meteors number={20} />
+              <Meteors number={10} />
             </div>
           </div>
         </div>

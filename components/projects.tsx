@@ -27,14 +27,14 @@ const Projects = () => {
                 </CardItem>
                 <CardItem
                   translateZ='50'
-                  className='text-xl font-bold text-neutral-600 dark:text-white mt-4'
+                  className='max-sm:text-sm text-xl font-bold text-neutral-600 dark:text-white mt-4'
                 >
                   {product.title}
                 </CardItem>
                 <CardItem
                   as='p'
                   translateZ='60'
-                  className='text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300'
+                  className='text-neutral-500 max-sm:text-xs text-sm max-w-sm mt-2 dark:text-neutral-300'
                 >
                   {product.description}
                 </CardItem>

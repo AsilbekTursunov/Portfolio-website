@@ -14,14 +14,14 @@ const About = () => {
         <h1 className='text-5xl text-white font-extrabold p-4'>About me</h1>
       </div>
       <div
-        className='   text-justify text-slate-400/90'
+        className='   text-justify text-slate-400/90 max-md:text-sm'
         dangerouslySetInnerHTML={{ __html: aboutAuthor.bio }}
       ></div>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
         <div className='flex flex-col gap-4'>
-          <h3 className='text-slate-400/90 text-3xl'>Personal details</h3>
+          <h3 className='text-slate-400/90  text-3xl'>Personal details</h3>
           {Object.entries(aboutAuthor.personalDetails).map(([key, value]) => (
-            <p key={value} className='text-slate-400/90 flex justify-between'>
+            <p key={value} className='text-slate-400/90 flex justify-between max-md:text-sm md:text-lg'>
               <span className=' capitalize'>{key.replace(/_/g, ' ')}</span>
               <span> {value}</span>
             </p>
