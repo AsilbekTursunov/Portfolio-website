@@ -44,7 +44,7 @@ const About = () => {
       </div>
       <div className='flex justify-center items-center mt-3'>
         <a
-          href={`https://www.canva.com/design/DAGFoQtGZcI/iy17aNIbptJaB8gipJ011Q/view?utm_content=DAGFoQtGZcI&utm_campaign=designshare&utm_medium=link&utm_source=editor`} target='_blank'
+          href={`https://shorturl.at/7eQCZ`} target='_blank'
           className='inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-cv-btn  bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50'
         >
           Download Cv
