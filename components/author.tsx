@@ -6,7 +6,7 @@ import { socials } from '@/constans'
 import Link from 'next/link'
 const Author = () => {
   return (
-    <div className='max-md:mx-3 md:container md:mx-auto mb-36'>
+    <div className='max-md:mx-3 md:container md:mx-auto my-36'>
       <div className='flex flex-wrap  items-center justify-start max-lg:gap-10'>
         <div className=' rounded-br-lg rounded-bl-lg  text-white basis-full lg:basis-3/5 '>
           <div className=' flex flex-col gap-6 mb-10'>
