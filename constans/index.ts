@@ -20,7 +20,7 @@ export const socials = [
   {
     id: 4,
     image: '/telegram.png',
-    link: 'https://t.me/asilbek_iman',
+    link: 'https://t.me/asilbek_tursunov',
   },
   {
     id: 5,
