@@ -142,7 +142,7 @@ export const products = [
   },
   {
     title: 'Cryptoverse',
-    link: 'https://portfolio-crypto-react-app.netlify.app/',
+    link: 'https://cryptverse-app.netlify.app/',
     description: 'There lastest crypto news and Changes of the crypto prices',
     thumbnail: '/project-3.jpg',
     skills: ['/skill-6.png', '/skill-12.png'],
