@@ -169,4 +169,11 @@ export const products = [
     thumbnail: '/project-4.jpg',
     skills: ['/skill-6.png', '/skill-9.png', '/skill-7.png'],
   },
+  {
+    title: 'Udev.io clone',
+    link: 'https://udev-clone.vercel.app/',
+    description: 'This clone website of Udev It company fully responsive ',
+    thumbnail: '/project-8.jpg',
+    skills: ['/skill-5.png', '/skill-9.png', '/skill-11.png'],
+  },
 ]
