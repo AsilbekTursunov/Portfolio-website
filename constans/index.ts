@@ -171,7 +171,7 @@ export const products = [
   },
   {
     title: 'Udev.io clone',
-    link: 'https://udev-clone.vercel.app/',
+    link: 'https://udev-clone.vercel.app/en',
     description: 'This clone website of Udev It company fully responsive ',
     thumbnail: '/project-8.jpg',
     skills: ['/skill-5.png', '/skill-9.png', '/skill-11.png'],
