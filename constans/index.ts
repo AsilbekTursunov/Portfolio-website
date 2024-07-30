@@ -128,8 +128,7 @@ export const products = [
   {
     title: 'Modern Website design',
     link: 'https://asilbektursunov.github.io/brainwave/',
-    description:
-      'Brainwave website design. This is only design to learn Tailwind',
+    description: 'Brainwave website design. This is only design to learn Tailwind',
     thumbnail: '/project-1.jpg',
     skills: ['/skill-6.png', '/skill-9.png'],
   },
@@ -161,13 +160,6 @@ export const products = [
     description: 'There are delicious any kind of meals. Every can  find  new meals',
     thumbnail: '/project-2.jpg',
     skills: ['/skill-11.png', '/skill-9.png', '/skill-10.png'],
-  },
-  {
-    title: 'Fazo Online Market',
-    link: 'https://fazo-online-shop.netlify.app/',
-    description: 'There are a lot of any kind of products. Everyone can find  everything they want',
-    thumbnail: '/project-4.jpg',
-    skills: ['/skill-6.png', '/skill-9.png', '/skill-7.png'],
   },
   {
     title: 'Udev.io clone',
