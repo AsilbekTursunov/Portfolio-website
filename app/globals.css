@@ -36,7 +36,7 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 223 28% 5%;
     --foreground: 210 40% 98%;
 
     --card: 222.2 84% 4.9%;
@@ -76,4 +76,18 @@
 }
 body {
   scroll-behavior: smooth;
+}
+#cv::before {
+  @apply bg-main -rotate-45 -left-3 top-1/4  ;
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 2px;
+}
+#cv::after {
+  @apply bg-main -rotate-45 -right-4 top-7  ;
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 2px;
 }

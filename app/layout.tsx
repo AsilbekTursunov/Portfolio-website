@@ -1,18 +1,18 @@
 import type { Metadata } from 'next'
-import { Fira_Code } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from '@/app/provider'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
-const inter = Fira_Code({ subsets: ['latin'], weight: ['400', '700'] })
+const inter = Poppins({ subsets: ['latin'], weight: ['400', '700'] })
 
 export const metadata: Metadata = {
   title: 'Asilbek Tursunov',
-  description: 'Asilbek Tursunov Portfolio',
+  description:
+    'Asilbek Tursunov Portfolio, Portfolio Asilbek Tursunov, Asilbek Portfolio, Tursunov Portfolio',
   icons: {
-    icon: ['/favicon.ico?v=4'], 
-     
-  }
+    icon: ['/images/site-logo-2.png'],
+  },
 }
 
 export default function RootLayout({
@@ -23,15 +23,10 @@ export default function RootLayout({
   return (
     <html lang='en' className='scroll-smooth'>
       <head>
-      <link rel="icon" href="/site-logo.png" sizes="any" />
+        <link rel='icon' href='/site-logo.png' sizes='any' />
       </head>
-      <body className={`${inter.className} overflow-x-hidden `} >
-        <ThemeProvider
-          attribute='class'
-          defaultTheme='dark'
-          enableSystem
-          disableTransitionOnChange
-        >
+      <body className={`${inter.className} overflow-x-hidden `}>
+        <ThemeProvider attribute='class' defaultTheme='dark' enableSystem disableTransitionOnChange>
           <Navbar />
           {children}
           <Footer />

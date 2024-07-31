@@ -34,6 +34,7 @@ const config = {
     },
     extend: { 
       colors: {
+        main: '#090a0f',
         orange:'rgba(254, 165, 95, 1)',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -1,30 +1,30 @@
 import skills from '@/components/skills'
 import { randomUUID } from 'crypto'
-
+import { FaFacebook, FaLinkedin, FaInstagram, FaTelegram, FaGithub } from 'react-icons/fa'
 export const socials = [
   {
     id: 1,
-    image: '/facebook.png',
+    image: FaFacebook,
     link: 'mufeed.visualization',
   },
   {
     id: 2,
-    image: '/linkedin.png',
+    image: FaLinkedin,
     link: 'https://www.linkedin.com/in/asilbek-tursunov-03236220a/',
   },
   {
     id: 3,
-    image: '/instagram.png',
+    image: FaInstagram,
     link: 'https://www.instagram.com/mufeed.visualization/',
   },
   {
     id: 4,
-    image: '/telegram.png',
+    image: FaTelegram,
     link: 'https://t.me/asilbek_tursunov',
   },
   {
     id: 5,
-    image: '/github.png',
+    image: FaGithub,
     link: 'https://github.com/AsilbekTursunov',
   },
 ]
