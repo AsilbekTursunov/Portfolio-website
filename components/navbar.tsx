@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div>
       <div className='relative  w-full bg-main'>
-        <div className='container flex justify-between p-4 md:py-6'>
+        <div className='container flex justify-between p-4 md:py-6 md:px-0'>
           <div className='flex items-center gap-2'>
             <Image
               src={'/site-logo-2.png'}

@@ -8,7 +8,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const Author = () => {
   return (
-    <div className='max-md:mx-3 md:container md:mx-auto my-12'>
+    <div className='max-md:mx-3 md:container md:mx-auto my-12 md:px-0'>
       <div className='flex flex-wrap  items-center justify-start max-lg:gap-10'>
         <div className=' rounded-br-lg rounded-bl-lg  text-white basis-full lg:basis-3/5 '>
           <div className=' flex flex-col gap-2 mb-10'>
