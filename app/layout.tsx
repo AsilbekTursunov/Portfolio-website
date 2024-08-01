@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 import './globals.css'
-import { ThemeProvider } from '@/app/provider'
+import { ThemeProvider } from '@/components/theme-provider'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 const inter = Poppins({ subsets: ['latin'], weight: ['400', '700'] })
@@ -26,11 +26,9 @@ export default function RootLayout({
         <link rel='icon' href='/site-logo.png' sizes='any' />
       </head>
       <body className={`${inter.className} overflow-x-hidden `}>
-        <ThemeProvider attribute='class' defaultTheme='dark' enableSystem disableTransitionOnChange>
-          <Navbar />
-          {children}
-          <Footer />
-        </ThemeProvider>
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   )

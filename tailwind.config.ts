@@ -33,8 +33,14 @@ const config = {
       },
     },
     extend: { 
+      transitionDuration: {
+        20000:"20000ms",
+        15000:"15000ms",
+        10000:"10000ms"
+      },
       colors: {
         main: '#090a0f',
+        mainText:'hsl(var(--main-text))',
         orange:'rgba(254, 165, 95, 1)',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

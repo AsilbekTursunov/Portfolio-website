@@ -29,7 +29,7 @@ export const socials = [
   },
 ]
 export const aboutAuthor = {
-  bio: `<p>Hello My Fullname is Asilbek Tursunov. I am 22 years old. I live in Fergana and  have studied at Fergana Branch of the Tashkent University  Information Technologies for 4 years. I am 5th year student. I study  at my university 2 months a year. So I have free time to work anywhere.</p> 
+  bio: `<p>Hello My Fullname is Asilbek Tursunov. I am 22 years old. I live in Fergana and  have studied at Fergana Branch of the Tashkent University  Information Technologies for 4 years. I am 5th year student. I study  at my university 2 months a year. So I have free time to work anywhere. <p>&nbsp;</p> </p> 
   <p>I have been learning programming languages and frameworks for 7 months. I have finished more than 5 projects for my portfolio.  I learned all the software by myself sitting at home. I am a hardworking, active, and sociable person.</p>`,
   personalDetails: {
     birthday: 'Oktober 15th 2001',

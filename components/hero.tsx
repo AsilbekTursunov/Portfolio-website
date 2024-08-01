@@ -11,9 +11,8 @@ const Hero = () => {
   return (
     <div className=''>
       <div className='relative'>
-        <div className='relative w-full h-screen  gap-4 items-center justify-center px-4   '>
           <Author />
-        </div>
+         
         <div className='bg-slate-950/40 w-full z-[100] py-10'>
           <div className='max-md:mx-3 md:container md:mx-auto '>
             <About />
