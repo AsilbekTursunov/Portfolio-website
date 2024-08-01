@@ -16,12 +16,12 @@ const Author = () => {
             <span className='text-amber-500 text-2xl lg:text-7xl font-bold'>
               I am{' '}
               <Typewriter
-                words={['Asilbek', 'Developer', 'Student']}
+                words={['Asilbek Tursunov', 'Frontend Developer', 'a Student']}
                 loop={Infinity}
                 cursor
                 cursorStyle='|'
-                typeSpeed={150}
-                deleteSpeed={150}
+                typeSpeed={300}
+                deleteSpeed={200}
                 delaySpeed={1000}
               />
             </span>{' '}
@@ -47,15 +47,15 @@ const Author = () => {
           </div>
         </div>
         <div
-          className='flex border h-[700px]  items-center justify-center relative rounded-full  p-1 basis-full lg:basis-2/5   '
-          style={{ borderRadius: '31% 69% 21% 79% / 68% 35% 65% 32% ' }}
+          className='flex border     items-center justify-center relative rounded-full  p-1 basis-full lg:basis-2/5   '
+          style={{ borderRadius: '41% 69% 61% 59% / 78% 35% 65% 32% ' }}
         >
           <div
-            className='border p-2 '
-            style={{ borderRadius: '61% 39% 55% 45% / 46% 39% 61% 54% ' }}
+            className='border h-[500px] w-[500px] duration-[40s]   p-2 ease-linear '
+            style={{ borderRadius: '91% 39% 55% 45% / 46% 39% 21% 54% ' }}
           >
             <div
-              className='border h-[700px]  overflow-hidden flex items-center justify-center'
+              className='border h-[500px] w-[500px]  duration-[70s]  ease-out overflow-hidden flex items-center justify-center'
               style={{ borderRadius: '46% 54% 54% 46% / 67% 51% 49% 33% ' }}
             >
               <Image
@@ -63,7 +63,7 @@ const Author = () => {
                 width={1020}
                 height={1050}
                 alt='dev-log'
-                className=' w-full  '
+                className=' w-full relative top-20    '
               />
             </div>
           </div>
