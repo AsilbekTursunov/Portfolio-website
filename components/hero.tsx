@@ -11,16 +11,11 @@ const Hero = () => {
   return (
     <div className=''>
       <div className='relative'>
-          <Author />
-         
-        <div className='bg-slate-950/40 w-full z-[100] py-10'>
-          <div className='max-md:mx-3 md:container md:mx-auto '>
-            <About />
-          </div>
-        </div>
-        <div className='w-full   bg-slate-950/50'>
-          <Projects />
-        </div>
+        <Author />
+
+        <About />
+
+        <Projects />
         <div className=' '>
           <Education />
         </div>

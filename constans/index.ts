@@ -29,14 +29,15 @@ export const socials = [
   },
 ]
 export const aboutAuthor = {
-  bio: `<p>Hello My Fullname is Asilbek Tursunov. I am 22 years old. I live in Fergana and  have studied at Fergana Branch of the Tashkent University  Information Technologies for 4 years. I am 5th year student. I study  at my university 2 months a year. So I have free time to work anywhere. <p>&nbsp;</p> </p> 
-  <p>I have been learning programming languages and frameworks for 7 months. I have finished more than 5 projects for my portfolio.  I learned all the software by myself sitting at home. I am a hardworking, active, and sociable person.</p>`,
+  bio: `<p>Hello My Fullname is Asilbek Tursunov. I am 22 years old. I live in Fergana and  have studied at Fergana Branch of the Tashkent University  Information Technologies for 4 years. I am 5th year student. I study  at my university 2 months a year.I will finially finish my university in 2025. <p>&nbsp;</p> </p> 
+  <p>I am currently studying Frontend Programming since 10 months so I am looking for a good company to improve my knowledge and become a good developer. I am a resilient, active, enterprising person, I learned everything I learned in this field sitting at home with free lessons and applying it in practice. I think many companies would like to have employees like me. Thank you for your attention. You won't go wrong if you give me a chance</p>`,
   personalDetails: {
     birthday: 'Oktober 15th 2001',
     phone: '+998 91 157 46 65',
     email: 'asilbekt84@gmail.com',
     address: 'Fergana, Uzbekistan',
-    jobStatus: 'Looking for a job',
+    jobStatus: 'Open to Work',
+    telegram: 'https://t.me/asilbek_tursunov',
   },
   interests: [
     {
@@ -164,7 +165,7 @@ export const products = [
   {
     title: 'Udev.io clone',
     link: 'https://udev-clone.vercel.app/en',
-    description: 'This clone website of Udev It company fully responsive ',
+    description: 'This clone website of Udev It company. That is  fully responsive and two languages',
     thumbnail: '/project-8.jpg',
     skills: ['/skill-5.png', '/skill-9.png', '/skill-11.png'],
   },

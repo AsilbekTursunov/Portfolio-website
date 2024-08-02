@@ -27,12 +27,12 @@ const navItems = [
 const Navbar = () => {
   return (
     <div className=' bg-muted '>
-      <div className='container flex justify-between py-6 '>
+      <div className='container flex justify-between py-6 pr-5 pl-5 '>
         <div className='flex items-center gap-2'>
           <Image
             src={'/site-logo-2.png'}
-            width={60}
-            height={60}
+            width={50}
+            height={50}
             className='block md:hidden '
             alt='logo'
           />
@@ -45,7 +45,7 @@ const Navbar = () => {
             <li className='group  rounded-md  transition-all py-1 px-2'>
               <a
                 href={item.link}
-                className='text-lg font-[100] text-white group-hover:text-amber-500 transition-all'
+                className='text-xl font-normal text-white group-hover:text-amber-500 transition-all'
               >
                 {item.name}
               </a>

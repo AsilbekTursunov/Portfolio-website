@@ -8,12 +8,12 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const Author = () => {
   return (
-    <div className=' container  mx-auto mt-36 '>
-      <div className='grid grid-cols-1 xl:grid-cols-4'>
-        <div className=' rounded-br-lg lg:col-span-2 rounded-bl-lg  text-white    '>
-          <div className=' flex flex-col gap-2 mb-10'>
-            <p className='text-xl md:text-4xl'>Hi There!</p>
-            <span className='text-amber-500 text-4xl lg:text-7xl font-bold'>
+    <div className=' container  mx-auto my-36 pr-5 pl-5 '>
+      <div className=' flex flex-col lg:flex-row'>
+        <div className='   w-full lg:w-3/4  text-white    '>
+          <div className=' flex flex-col gap-3 mb-10'>
+            <p className='text-2xl md:text-4xl font-extralight'>Hi There!</p>
+            <span className='text-amber-500 text-5xl lg:text-7xl font-bold'>
               I am{' '}
               <Typewriter
                 words={['Asilbek Tursunov', 'Frontend Developer', 'a Student']}
@@ -25,17 +25,17 @@ const Author = () => {
                 delaySpeed={1000}
               />
             </span>{' '}
-            <span className='text-xl md:text-4xl'>I make the complex simple.</span>
+            <span className='text-2xl md:text-4xl font-extralight'>I make the complex simple.</span>
           </div>
           <div className='flex flex-wrap justify-start items-start gap-3  '>
             {socials.map(item => (
               <Link
                 href={item.link}
                 key={item.id}
-                className='p-2 border border-neutral-200 rounded-full'
+                className='max-md:p-2 p-3 border border-neutral-200 rounded-full flex items-center justify-center'
                 target='_blank'
               >
-                {<item.image className=' size-4 lg:size-5' />}
+                {<item.image className='max-md:size-3 size-5 lg:size-5' />}
               </Link>
             ))}
           </div>
@@ -46,18 +46,14 @@ const Author = () => {
             </a>
           </div>
         </div>
-        <div
-          className='flex border lg:col-span-1  lg:h-[500px] max-md:h-[300px] max-lg:h-[400px] lg:w-[500px] max-md:w-[300px] max-lg:w-[400px] max-xl:mx-auto  max-xl:my-20  items-center justify-center relative rounded-full  overflow-hidden p-1    '
-          style={{ borderRadius: '50% 50% 50% 50% / 56% 56% 44% 44% ' }}
-        >
-          <Image
-            src={'/dev-image-1.png'}
-            width={1020}
-            height={1050}
-            alt='dev-log'
-            className=' w-full relative lg:top-20'
-          />
-        </div>
+
+        <Image
+          src={'/dev.jpg'}
+          width={1020}
+          height={1050}
+          alt='dev-log'
+          className=' sm:w-2/3 max-lg:mx-auto lg:w-1/4 mt-20 lg:-mt-20 lg:mr-20 border-amber-400 col-span-2 rounded-tl-3xl rounded-br-3xl relative lg:top-20'
+        />
       </div>
     </div>
   )

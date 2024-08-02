@@ -4,7 +4,10 @@ import './globals.css'
 import { ThemeProvider } from '@/components/theme-provider'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
-const inter = Poppins({ subsets: ['latin'], weight: ['400', '700'] })
+const inter = Poppins({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '700', '800', '900'],
+})
 
 export const metadata: Metadata = {
   title: 'Asilbek Tursunov',
