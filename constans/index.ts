@@ -10,7 +10,7 @@ export const socials = [
   {
     id: 2,
     image: FaLinkedin,
-    link: 'https://www.linkedin.com/in/asilbek-tursunov-03236220a/',
+    link: 'https://www.linkedin.com/in/asilbek-tursunov/',
   },
   {
     id: 3,
