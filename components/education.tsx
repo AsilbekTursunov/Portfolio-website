@@ -137,9 +137,8 @@ const Education = () => {
                   </div>
                 </div>
               </div>
-              <div className='w-64 h-[1px] bg-amber-500 absolute bottom-0 left-0' />
-              <div className='w-full h-[1px] bg-amber-500/30 absolute bottom-0 left-0' />
             </div>
+            
           </div>
           <div className=''>
             <h1 className='text-3xl text-white font-normal  mb-5  flex gap-5 items-center'>

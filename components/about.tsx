@@ -93,7 +93,11 @@ const About = () => {
                   </a>
                 </p>
                 <div className='mt-4'>
-                  <a className='bg-amber-500 text-white py-2 px-3 relative  ' id='cv'>
+                  <a
+                    href='/cv.pdf'
+                    className='bg-amber-500 text-white py-2 px-3 relative cursor-pointer '
+                    id='cv'
+                  >
                     {' '}
                     Download CV
                   </a>
