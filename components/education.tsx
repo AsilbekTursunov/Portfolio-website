@@ -20,7 +20,7 @@ const Education = () => {
               Education
             </h1>
 
-            <div className=' border-l-2 border-l-amber-500 py-[30px] px-[50px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
+            <div className=' border-l-2 border-l-amber-500 py-[20px] px-[40px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
               <div className='w-5 h-5 bg-amber-500 absolute top-5 left-0' />
               <div className='flex-grow md:pl-2  flex items-center  flex-col sm:flex-row '>
                 <div className='flex-grow '>
@@ -37,7 +37,7 @@ const Education = () => {
                     />
                   </h2>
 
-                  <div className='flex flex-col gap-2 mt-4'>
+                  <div className='flex flex-col gap-2 mt-4 max-md:text-sm '>
                     <p className='text-muted-foreground'> Ulugbek Samidjonov YouTube Channel</p>
                     <p className='text-muted-foreground'> Nov / 2023 - Jan / 2024</p>
 
@@ -54,7 +54,7 @@ const Education = () => {
               <div className='w-full h-[1px] bg-amber-500/30 absolute bottom-0 left-0' />
             </div>
 
-            <div className=' border-l-2 border-l-amber-500 py-[30px] px-[50px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
+            <div className=' border-l-2 border-l-amber-500 py-[20px] px-[40px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
               <div className='w-5 h-5 bg-amber-500 absolute top-5 left-0' />
               <div className='flex-grow md:pl-2  flex items-center  flex-col sm:flex-row'>
                 <div className='flex-grow '>
@@ -83,7 +83,7 @@ const Education = () => {
               <div className='w-full h-[1px] bg-amber-500/30 absolute bottom-0 left-0' />
             </div>
 
-            <div className=' border-l-2 border-l-amber-500 py-[30px] px-[50px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
+            <div className=' border-l-2 border-l-amber-500 py-[20px] px-[40px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
               <div className='w-5 h-5 bg-amber-500 absolute top-5 left-0' />
               <div className='flex-grow md:pl-2  flex items-center  flex-col sm:flex-row'>
                 <div className='flex-grow '>
@@ -112,7 +112,7 @@ const Education = () => {
               <div className='w-full h-[1px] bg-amber-500/30 absolute bottom-0 left-0' />
             </div>
 
-            <div className=' border-l-2 border-l-amber-500 py-[30px] px-[50px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
+            <div className=' border-l-2 border-l-amber-500 py-[20px] px-[40px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
               <div className='w-5 h-5 bg-amber-500 absolute top-5 left-0' />
               <div className='flex-grow md:pl-2  flex items-center  flex-col sm:flex-row'>
                 <div className='flex-grow '>
@@ -147,7 +147,7 @@ const Education = () => {
               </span>
               Work Experience
             </h1>
-            <div className=' border-l-2 border-l-amber-500 py-[30px] px-[50px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
+            <div className=' border-l-2 border-l-amber-500 py-[20px] px-[40px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
               <div className='w-5 h-5 bg-amber-500 absolute top-5 left-0' />
               <div className='flex-grow md:pl-2  flex items-center  flex-col sm:flex-row '>
                 <div className='flex-grow '>

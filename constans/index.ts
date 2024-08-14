@@ -119,8 +119,28 @@ export const aboutAuthor = {
     },
     {
       id: randomUUID,
-      name: 'Git',
-      icon: '/skill-3.png',
+      name: 'Material-UI',
+      icon: '/skill-12.png',
+    },
+    {
+      id: randomUUID,
+      name: 'Ant-Design',
+      icon: '/skill-13.png',
+    },
+    {
+      id: randomUUID,
+      name: 'Tan-Stack',
+      icon: '/skill-14.png',
+    },
+    {
+      id: randomUUID,
+      name: 'Zustand',
+      icon: '/skill-15.png',
+    },
+    {
+      id: randomUUID,
+      name: 'Daisy-UI',
+      icon: '/skill-16.png',
     },
   ],
 }
@@ -165,7 +185,8 @@ export const products = [
   {
     title: 'Udev.io clone',
     link: 'https://udev-clone.vercel.app/en',
-    description: 'This clone website of Udev It company. That is  fully responsive and two languages',
+    description:
+      'This clone website of Udev It company. That is  fully responsive and two languages',
     thumbnail: '/project-8.jpg',
     skills: ['/skill-5.png', '/skill-9.png', '/skill-11.png'],
   },
