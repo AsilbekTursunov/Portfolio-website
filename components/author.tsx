@@ -12,8 +12,8 @@ const Author = () => {
       <div className=' flex flex-col lg:flex-row'>
         <div className='   w-full lg:w-3/4  text-white    '>
           <div className=' flex flex-col gap-3 mb-10'>
-            <p className='text-2xl md:text-4xl font-extralight'>Hi There!</p>
-            <span className='text-amber-500 text-5xl lg:text-7xl font-bold'>
+            <p className='text-lg md:text-4xl font-extralight'>Hi There!</p>
+            <span className='text-amber-500 text-3xl md:text-5xl lg:text-7xl font-bold'>
               I am{' '}
               <Typewriter
                 words={['Asilbek Tursunov', 'Frontend Developer', 'a Student']}
@@ -25,7 +25,7 @@ const Author = () => {
                 delaySpeed={1000}
               />
             </span>{' '}
-            <span className='text-2xl md:text-4xl font-extralight'>I make the complex simple.</span>
+            <span className='text-lg md:text-4xl font-extralight'>I make the complex simple.</span>
           </div>
           <div className='flex flex-wrap justify-start items-start gap-3  '>
             {socials.map(item => (

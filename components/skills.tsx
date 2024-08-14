@@ -21,7 +21,7 @@ const Skills = () => {
                 className='size-14'
               />
               <p className='text-sm text-gray-500'>{skill.name}</p>
-              <Meteors number={5} />
+               
             </div>
           </div>
         </div>
