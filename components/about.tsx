@@ -17,20 +17,18 @@ const About = () => {
         </div>
         <div className='flex md:gap-6'>
           <div className=' '>
-            <p className='   text-justify text-slate-400/90 max-md:text-sm md:text-xl lg:text-2xl'>
-              <span>
-                Hello My Fullname is Asilbek Tursunov. I am 22 years old. I live in Fergana and have
-                studied at Fergana Branch of the Tashkent University Information Technologies for 4
-                years. I am 5th year student. I study at my university 2 months a year.I will
-                finially finish my university in 2025.
-                <br />
-                <br />I am currently studying Frontend Programming since 10 months so I am looking
-                for a good company to improve my knowledge and become a good developer. I am a
-                resilient, active, enterprising person, I learned everything I learned in this field
-                sitting at home with free lessons and applying it in practice. I think many
-                companies would like to have employees like me. Thank you for your attention. You
-                won't go wrong if you give me a chance
-              </span>
+            <p className='   text-justify text-slate-400/90 about-size '>
+              Hello My Fullname is Asilbek Tursunov. I am 22 years old. I live in Fergana and have
+              studied at Fergana Branch of the Tashkent University Information Technologies for 4
+              years. I am 5th year student. I study at my university 2 months a year.I will finially
+              finish my university in 2025.
+              <br />
+              <br />I am currently studying Frontend Programming since 10 months so I am looking for
+              a good company to improve my knowledge and become a good developer. I am a resilient,
+              active, enterprising person, I learned everything I learned in this field sitting at
+              home with free lessons and applying it in practice. I think many companies would like
+              to have employees like me. Thank you for your attention. You won't go wrong if you
+              give me a chance
             </p>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10'>
               <div className='flex flex-col gap-4'>
