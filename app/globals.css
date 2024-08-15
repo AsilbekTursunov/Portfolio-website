@@ -39,3 +39,12 @@
     @apply bg-background text-foreground;
   }
 }
+.education-size {
+  @apply max-sm:text-[11px] sm:text-[13px] md:text-[15px];
+}
+.education-title-size {
+  @apply max-sm:text-[14px] sm:text-[16px] md:text-[18px];
+}
+.project-size {
+  @apply max-sm:text-[18px] sm:text-[20px] md:text-[22px];
+}

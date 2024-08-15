@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 'use client'
 import Image from 'next/image'
-import React from 'react' 
+import React from 'react'
 import Link from 'next/link'
 import { products } from '@/constans'
 const Projects = () => {
@@ -22,10 +22,10 @@ const Projects = () => {
                 className='w-full'
               />
               <div className='flex flex-col gap-2 py-3 px-4'>
-                <h2 className='max-sm:text-sm text-xl font-bold text-muted-foreground/90   mt-4'>
+                <h2 className=' project-size font-bold text-muted-foreground/90   mt-4'>
                   {product.title}
                 </h2>
-                <p className='text-neutral-500 max-sm:text-xs text-sm max-w-sm mt-2 dark:text-neutral-300'>
+                <p className='text-neutral-500 education-title-size mt-2 dark:text-neutral-300'>
                   {product.description}
                 </p>
                 <div className='flex justify-between items-center'>
