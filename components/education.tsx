@@ -165,43 +165,8 @@ const Education = () => {
                   </div>
                 </div>
               </div>
-              <div className='w-64 h-[1px] bg-amber-500 absolute bottom-0 left-0' />
               <div className='w-full h-[1px] bg-amber-500/30 absolute bottom-0 left-0' />
             </div>
-
-            {/* <div className=' border-l-2 border-l-amber-500 py-[30px] px-[30px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
-              <div className='w-5 h-5 bg-amber-500 absolute top-5 left-0' />
-              <div className='flex-grow md:pl-2  flex  flex-col sm:flex-row'>
-                 
-                <h2 className='font-medium title-font text-slate-500/90 mb-1 text-xl group flex gap-3 items-center'>
-                  <LinkPreview
-                    url='https://praktikum.sammi.ac/browse'
-                    className='font-medium text-[18px] text-white '
-                  >
-                    Real and StartUp projects
-                  </LinkPreview>
-                  <IoIosArrowRoundForward
-                    size={20}
-                    className='text-amber-200 group-hover:translate-x-5 transition-all '
-                  />
-                </h2>
-                <div className='flex flex-col gap-2 mt-4'>
-                  <p className='text-muted-foreground education-title-size'>
-                    Praktikum Sammi.ac payed course
-                  </p>
-                  <p className='text-muted-foreground education-title-size'>
-                    June / 2024 - August / 2024
-                  </p>
-                  <p className='flex items-center gap-2 text-amber-700/70'>
-                    <span className='education-size'>React.Js </span>
-                    <span className='education-size'> Next.Js </span>
-                    <span className='education-size'> Firebase </span>
-                    <span className='education-size'> Hygraph</span>
-                  </p>
-                </div>
-                 
-              </div>
-            </div> */}
           </div>
           <div className=''>
             <h1 className='text-3xl text-white font-normal  mb-5  flex gap-5 items-center'>
@@ -210,10 +175,9 @@ const Education = () => {
               </span>
               Work Experience
             </h1>
-            <div className=' border-l-2 border-l-amber-500 py-[30px] px-[30px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
+            {/* <div className=' border-l-2 border-l-amber-500 py-[30px] px-[30px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
               <div className='w-5 h-5 bg-amber-500 absolute top-5 left-0' />
               <div className='flex-grow md:pl-2  flex   flex-col sm:flex-row '>
-                {/* <div className='flex-grow '> */}
                 <h2 className='font-medium justify-start title-font text-slate-500/90 mb-1 text-xl group flex gap-3  '>
                   <LinkPreview
                     url='https://www.youtube.com/@UlugbekSamigjonov'
@@ -239,10 +203,41 @@ const Education = () => {
                     messaging and payment actions
                   </p>
                 </div>
-                {/* </div> */}
               </div>
-              {/* <div className='w-64 h-[1px] bg-amber-500 absolute bottom-0 left-0' />
-              <div className='w-full h-[1px] bg-amber-500/30 absolute bottom-0 left-0' /> */}
+            </div> */}
+            <div className=' border-l-2 border-l-amber-500 py-[30px] px-[30px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
+              <div className='w-5 h-5 bg-amber-500 absolute top-5 left-0' />
+              <div className='flex-grow md:pl-2  flex  flex-col sm:flex-row'>
+                <div className='flex-grow '>
+                  <h2 className='font-medium title-font text-slate-500/90 mb-1 text-xl group flex gap-3 items-center'>
+                    <LinkPreview
+                      url='https://www.linkedin.com/in/asilbek-tursunov/'
+                      className='font-medium text-[18px] text-white '
+                    >
+                      Frontend Developer
+                    </LinkPreview>
+                    <IoIosArrowRoundForward
+                      size={20}
+                      className='text-amber-200 group-hover:translate-x-5 transition-all '
+                    />
+                  </h2>
+                  <div className='flex flex-col gap-2 mt-4'>
+                    <p className='text-muted-foreground education-title-size'> Rishton Soft</p>
+                    <p className='text-muted-foreground education-title-size'>
+                      {' '}
+                      May / 2024 - August / 2024
+                    </p>
+                    <p className='flex items-center gap-2 text-amber-700/70'>
+                      <span className='education-size text-justify'>
+                        I have been working here as a Frontend Developer for 3 months. Currently, I
+                        am participating in an internship on the project of a Crm system for an
+                        educational brand. My main work is to change the website from old UI to new
+                        one and add messaging and payment actions
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
