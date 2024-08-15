@@ -47,11 +47,8 @@ const Education = () => {
                       Nov / 2023 - Jan / 2024
                     </p>
 
-                    <p className='flex items-center gap-2 text-amber-700/70 flex-wrap'>
-                      <span className='education-size'>Html</span>
-                      <span className='education-size'>Css</span>
-                      <span className='education-size'>Sass / Scss</span>
-                      <span className='education-size'>Javascript Basics</span>
+                    <p className='flex items-center gap-2 text-amber-700/70 flex-wrap education-size'>
+                      Html Css Sass/Scss Javascript Basics
                     </p>
                   </div>
                 </div>
@@ -85,8 +82,8 @@ const Education = () => {
                       {' '}
                       Feb / 2024 - March / 2024
                     </p>
-                    <p className='flex items-center gap-2 text-amber-700/70'>
-                      <span className='education-size'>Advanced Javascript</span>
+                    <p className='flex flex-wrap items-center gap-2 text-amber-700/70 education-size'>
+                      Advanced Javascript
                     </p>
                   </div>
                 </div>
@@ -120,10 +117,8 @@ const Education = () => {
                       {' '}
                       April / 2024 - May / 2024
                     </p>
-                    <p className='flex items-center gap-2 text-amber-700/70'>
-                      <span className='education-size'> React.Js </span>
-                      <span className='education-size'> Next.Js </span>
-                      <span className='education-size'> Javascript</span>
+                    <p className='flex flex-wrap education-size items-center gap-2 text-amber-700/70'>
+                      React.Js Next.Js Javascript
                     </p>
                   </div>
                 </div>
@@ -157,10 +152,8 @@ const Education = () => {
                       {' '}
                       June / 2024 - August / 2024
                     </p>
-                    <p className='flex items-center gap-2 text-amber-700/70'>
-                      <span className='education-size'> React.Js </span>
-                      <span className='education-size'> Firebase </span>
-                      <span className='education-size'> Hygraph</span>
+                    <p className='flex flex-wrap education-size items-center gap-2 text-amber-700/70'>
+                      React.Js Firebase Hygraph
                     </p>
                   </div>
                 </div>
@@ -175,36 +168,6 @@ const Education = () => {
               </span>
               Work Experience
             </h1>
-            {/* <div className=' border-l-2 border-l-amber-500 py-[30px] px-[30px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
-              <div className='w-5 h-5 bg-amber-500 absolute top-5 left-0' />
-              <div className='flex-grow md:pl-2  flex   flex-col sm:flex-row '>
-                <h2 className='font-medium justify-start title-font text-slate-500/90 mb-1 text-xl group flex gap-3  '>
-                  <LinkPreview
-                    url='https://www.youtube.com/@UlugbekSamigjonov'
-                    className='font-medium text-[18px] text-white '
-                  >
-                    Frontend Developer
-                  </LinkPreview>
-                  <IoIosArrowRoundForward
-                    size={20}
-                    className='text-amber-200 group-hover:translate-x-5 transition-all '
-                  />
-                </h2>
-
-                <div className='flex flex-col gap-2 mt-4'>
-                  <p className='text-muted-foreground education-title-size'>Rishton Soft</p>
-                  <p className='text-muted-foreground education-title-size'>
-                    May / 2024 - August / 2024
-                  </p>
-                  <p className='text-muted-foreground text-justify education-size'>
-                    I have been working here as a Frontend Developer for 3 months. Currently, I am
-                    participating in an internship on the project of a Crm system for an educational
-                    brand. My main work is to change the website from old UI to new one and add
-                    messaging and payment actions
-                  </p>
-                </div>
-              </div>
-            </div> */}
             <div className=' border-l-2 border-l-amber-500 py-[30px] px-[30px] flex relative w-full  sm:items-center  mx-auto bg-muted-foreground/20'>
               <div className='w-5 h-5 bg-amber-500 absolute top-5 left-0' />
               <div className='flex-grow md:pl-2  flex  flex-col sm:flex-row'>
@@ -227,13 +190,11 @@ const Education = () => {
                       {' '}
                       May / 2024 - August / 2024
                     </p>
-                    <p className='flex items-center gap-2 text-amber-700/70'>
-                      <span className='education-size text-justify'>
-                        I have been working here as a Frontend Developer for 3 months. Currently, I
-                        am participating in an internship on the project of a Crm system for an
-                        educational brand. My main work is to change the website from old UI to new
-                        one and add messaging and payment actions
-                      </span>
+                    <p className='flex items-center gap-2 text-muted-foregroun education-size text-justify'>
+                      I have been working here as a Frontend Developer for 3 months. Currently, I am
+                      participating in an internship on the project of a Crm system for an
+                      educational brand. My main work is to change the website from old UI to new
+                      one and add messaging and payment actions
                     </p>
                   </div>
                 </div>
