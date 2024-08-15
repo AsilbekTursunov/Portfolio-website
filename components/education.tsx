@@ -157,8 +157,7 @@ const Education = () => {
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className='w-full h-[1px] bg-amber-500/30 absolute bottom-0 left-0' />
+              </div> 
             </div>
           </div>
           <div className=''>
@@ -190,7 +189,7 @@ const Education = () => {
                       {' '}
                       May / 2024 - August / 2024
                     </p>
-                    <p className='flex items-center gap-2 text-muted-foregroun education-size text-justify'>
+                    <p className='flex items-center gap-2 text-muted-foreground education-size text-justify'>
                       I have been working here as a Frontend Developer for 3 months. Currently, I am
                       participating in an internship on the project of a Crm system for an
                       educational brand. My main work is to change the website from old UI to new
