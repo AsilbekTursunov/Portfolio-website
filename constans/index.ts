@@ -142,6 +142,11 @@ export const aboutAuthor = {
       name: 'Daisy-UI',
       icon: '/skill-16.png',
     },
+    {
+      id: randomUUID,
+      name: 'GraphQl',
+      icon: '/skill-17.png',
+    },
   ],
 }
 
@@ -189,5 +194,21 @@ export const products = [
       'This clone website of Udev It company. That is  fully responsive and two languages',
     thumbnail: '/project-8.jpg',
     skills: ['/skill-5.png', '/skill-9.png', '/skill-11.png'],
+  },
+  {
+    title: 'Dev.Blogs',
+    link: 'https://asilbek-dev-blogs.vercel.app/',
+    description:
+      'This is developers blogs and acrticles Everyone can learn new features and anvadtages of ths programming languages',
+    thumbnail: '/project-9.jpg',
+    skills: ['/skill-10.png', '/skill-9.png', '/skill-11.png', '/skill-17.png'],
+  },
+  {
+    title: 'Workout Time',
+    link: 'https://workout-time-portfolio.vercel.app/',
+    description:
+      'Everyone calculate workout time during exercises. This is usefull to manage workout time during your life',
+    thumbnail: '/project-10.jpg',
+    skills: ['/skill-5.png', '/skill-9.png', '/skill-11.png', '/skill-15.png'],
   },
 ]

@@ -4,6 +4,7 @@ import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
 import { products } from '@/constans'
+import { CircleArrowOutUpRight } from 'lucide-react'
 const Projects = () => {
   return (
     <>
@@ -22,26 +23,34 @@ const Projects = () => {
                 className='w-full'
               />
               <div className='flex flex-col gap-2 py-3 px-4'>
-                <h2 className=' project-size font-bold text-muted-foreground/90   mt-4'>
+                <p className=' education-title-size font-bold text-muted-foreground/90 '>
                   {product.title}
-                </h2>
-                <p className='text-neutral-500 education-title-size mt-2 dark:text-neutral-300'>
+                </p>
+                <p className='text-neutral-500 education-size mt-2 dark:text-neutral-300'>
                   {product.description}
                 </p>
-                <div className='flex justify-between items-center'>
-                  <div className='flex items-center gap-2'>
+                <div className='flex justify-between items-center mt-4'>
+                  <div className='flex items-center gap-2 '>
                     {product.skills.map((skill, index) => (
                       <p
                         key={index}
-                        className=' rounded-full border flex items-center justify-center p-2'
+                        className=' rounded-full border border-muted-foreground flex items-center justify-center p-1'
                       >
-                        <Image src={skill} alt={`${index}`} width={24} height={24} />
+                        <Image src={skill} alt={`${index}`} width={20} height={20} />
                       </p>
                     ))}
                   </div>
-                  <Link href={product.link} target='_blank' legacyBehavior>
-                    <a className='text-white font-bold text-xs'>Check the site</a>
-                  </Link>
+                  <div className='flex items-center gap-2'>
+                    <Link
+                      href={product.link}
+                      target='_blank'
+                      legacyBehavior
+                      
+                    >
+                      <a className='text-white font-normal text-xs'>Check the site</a>
+                    </Link>
+                    <CircleArrowOutUpRight size={15} className='text-amber-500' />
+                  </div>
                 </div>
               </div>
             </div>
