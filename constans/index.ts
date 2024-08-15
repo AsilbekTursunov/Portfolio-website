@@ -86,12 +86,7 @@ export const aboutAuthor = {
       id: randomUUID,
       name: 'Tailwind',
       icon: '/skill-9.png',
-    },
-    {
-      id: randomUUID,
-      name: 'AntDesign',
-      icon: '/skill-12.png',
-    },
+    }, 
     {
       id: randomUUID,
       name: 'JavaScript',
@@ -199,7 +194,7 @@ export const products = [
     title: 'Dev.Blogs',
     link: 'https://asilbek-dev-blogs.vercel.app/',
     description:
-      'This is developers blogs and acrticles Everyone can learn new features and anvadtages of ths programming languages',
+      'This is developers   acrticles Everyone can learn new features  of ths programming languages',
     thumbnail: '/project-9.jpg',
     skills: ['/skill-10.png', '/skill-9.png', '/skill-11.png', '/skill-17.png'],
   },

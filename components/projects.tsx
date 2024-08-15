@@ -18,11 +18,11 @@ const Projects = () => {
               <Image
                 src={product.thumbnail}
                 alt={product.title}
-                width={200}
-                height={200}
-                className='w-full'
+                width={2000}
+                height={2000}
+                className='w-full h-56'
               />
-              <div className='flex flex-col gap-2 py-3 px-4'>
+              <div className='flex flex-col gap-2 py-3 px-4 h-full'>
                 <p className=' education-title-size font-bold text-muted-foreground/90 '>
                   {product.title}
                 </p>
@@ -41,14 +41,9 @@ const Projects = () => {
                     ))}
                   </div>
                   <div className='flex items-center gap-2'>
-                    <Link
-                      href={product.link}
-                      target='_blank'
-                      legacyBehavior
-                      
-                    >
-                      <a className='text-white font-normal text-xs'>Check the site</a>
-                    </Link>
+                    <a href={product.link} target='_blank'>
+                      <span className='text-white font-normal text-xs'>Check the site</span>
+                    </a>
                     <CircleArrowOutUpRight size={15} className='text-amber-500' />
                   </div>
                 </div>
