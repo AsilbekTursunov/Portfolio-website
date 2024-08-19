@@ -142,6 +142,11 @@ export const aboutAuthor = {
       name: 'GraphQl',
       icon: '/skill-17.png',
     },
+    {
+      id: randomUUID,
+      name: 'Jira',
+      icon: '/skill-18.png',
+    },
   ],
 }
 
