@@ -86,7 +86,7 @@ export const aboutAuthor = {
       id: randomUUID,
       name: 'Tailwind',
       icon: '/skill-9.png',
-    }, 
+    },
     {
       id: randomUUID,
       name: 'JavaScript',
@@ -210,5 +210,13 @@ export const products = [
       'Everyone calculate workout time during exercises. This is usefull to manage workout time during your life',
     thumbnail: '/project-10.jpg',
     skills: ['/skill-5.png', '/skill-9.png', '/skill-11.png', '/skill-15.png'],
+  },
+  {
+    title: 'CarePalse',
+    link: 'https://carepulse-healthcare-omega.vercel.app/',
+    description:
+      'CarePalse is patient appointment platform for hospitals. Everyone can book a doctor from anywere before going to hospital.',
+    thumbnail: '/project-7.jpg',
+    skills: ['/skill-10.png', '/skill-9.png', '/skill-11.png'],
   },
 ]

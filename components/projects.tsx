@@ -26,7 +26,7 @@ const Projects = () => {
                 <p className=' education-title-size font-bold text-muted-foreground/90 '>
                   {product.title}
                 </p>
-                <p className='text-neutral-500 education-size mt-2 dark:text-neutral-300'>
+                <p className='text-neutral-500 education-size mt-2 dark:text-neutral-300 line-clamp-2'>
                   {product.description}
                 </p>
                 <div className='flex justify-between items-center mt-4'>
