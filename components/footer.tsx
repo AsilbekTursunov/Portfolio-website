@@ -19,7 +19,8 @@ const Footer = () => {
               @asilbektursunov
             </a>
           </p>
-          <a href='/variant.pdf'>test x variant</a>
+          <a href='/variant.pdf'>test x variant_1</a>
+          <a href='/variant1.pdf'>test x variant_2</a>
         </div>
       </footer>
     </div>
