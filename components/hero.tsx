@@ -11,10 +11,8 @@ const Hero = () => {
   return (
     <div className=''>
       <div className='relative'>
-        <Author />
-
-        <About />
-
+        <Author /> 
+        <About /> 
         <Projects />
         <div className=' '>
           <Education />

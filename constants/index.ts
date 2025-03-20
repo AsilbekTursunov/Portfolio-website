@@ -147,6 +147,31 @@ export const aboutAuthor = {
       name: 'Jira',
       icon: '/skill-18.png',
     },
+    {
+      id: randomUUID,
+      name: 'Vue',
+      icon: '/skill-19.png',
+    },
+    {
+      id: randomUUID,
+      name: 'Vuex',
+      icon: '/skill-20.png',
+    },
+    {
+      id: randomUUID,
+      name: 'Element UI',
+      icon: '/skill-21.png',
+    },
+    {
+      id: randomUUID,
+      name: 'React Native',
+      icon: '/skill-6.png',
+    },
+    {
+      id: randomUUID,
+      name: 'NativeWind',
+      icon: '/skill-6.png',
+    },
   ],
 }
 
@@ -157,29 +182,14 @@ export const products = [
     description: 'Brainwave website design. This is only design to learn Tailwind',
     thumbnail: '/project-1.jpg',
     skills: ['/skill-6.png', '/skill-9.png'],
-  },
-  {
-    title: 'MovieX',
-    link: 'https://react-moviex-app.netlify.app/',
-    description: 'Online upcoming movies website. Everyone find new movies',
-    thumbnail: '/project-6.jpg',
-    skills: ['/skill-6.png', '/skill-9.png', '/skill-7.png'],
-  },
+  }, 
   {
     title: 'Cryptoverse',
     link: 'https://cryptverse-app.netlify.app/',
     description: 'There lastest crypto news and Changes of the crypto prices',
     thumbnail: '/project-3.jpg',
     skills: ['/skill-6.png', '/skill-12.png'],
-  },
-
-  {
-    title: 'IT Articles',
-    link: 'https://asilbek-nextjs-blog-app.vercel.app/',
-    description: 'There are more articles about it technologies and ai news',
-    thumbnail: '/project-5.jpg',
-    skills: ['/skill-6.png', '/skill-12.png', '/skill-11.png', '/skill-10.png'],
-  },
+  }, 
   {
     title: 'Coolpal Meal Recipes',
     link: 'https://cookpal-six.vercel.app/',
@@ -202,21 +212,13 @@ export const products = [
       'This is developers   acrticles Everyone can learn new features  of ths programming languages',
     thumbnail: '/project-9.jpg',
     skills: ['/skill-10.png', '/skill-9.png', '/skill-11.png', '/skill-17.png'],
-  },
+  },  
   {
-    title: 'Workout Time',
-    link: 'https://workout-time-portfolio.vercel.app/',
+    title: 'Elektric Fam',
+    link: 'https://electric-farm.netlify.app/',
     description:
-      'Everyone calculate workout time during exercises. This is usefull to manage workout time during your life',
-    thumbnail: '/project-10.jpg',
-    skills: ['/skill-5.png', '/skill-9.png', '/skill-11.png', '/skill-15.png'],
-  },
-  {
-    title: 'CarePalse',
-    link: 'https://carepulse-healthcare-omega.vercel.app/',
-    description:
-      'CarePalse is patient appointment platform for hospitals. Everyone can book a doctor from anywere before going to hospital.',
-    thumbnail: '/project-7.jpg',
-    skills: ['/skill-10.png', '/skill-9.png', '/skill-11.png'],
-  },
+      'This is company website to manage employees',
+    thumbnail: '/project-11.jpg',
+    skills: ['/skill-19.png', '/skill-20.png', '/skill-8.png', '/skill-21.png'],
+  },  
 ]

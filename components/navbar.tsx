@@ -57,7 +57,7 @@ const Navbar = () => {
         </Link>
         <ul className='hidden lg:flex items-center justify-center gap-4  '>
           {navItems.map(item => (
-            <li className='group  rounded-md  transition-all py-1 px-2'>
+            <li key={item.name} className='group  rounded-md  transition-all py-1 px-2'>
               <a
                 href={item.link}
                 className='text-xl font-normal text-white group-hover:text-amber-500 transition-all'
@@ -86,7 +86,7 @@ const Navbar = () => {
                 </SheetClose>
               </SheetHeader>
               {navItems.map(item => (
-                <SheetClose className='group  rounded-md  transition-all py-1 px-2'>
+                <SheetClose key={item.name} className='group  rounded-md  transition-all py-1 px-2'>
                   <a
                     href={item.link}
                     className='text-xl font-normal text-white group-hover:text-amber-500 transition-all'

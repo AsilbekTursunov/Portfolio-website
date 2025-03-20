@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
-import { products } from '@/constans'
+import { products } from '@/constants'
 import { CircleArrowOutUpRight } from 'lucide-react'
 const Projects = () => {
   return (
@@ -14,7 +14,7 @@ const Projects = () => {
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 '>
           {products.map((product, index) => (
-            <div className='flex flex-col gap-2  bg-muted-foreground/20 '>
+            <div key={product.thumbnail} className='flex flex-col gap-2  bg-muted-foreground/20 '>
               <Image
                 src={product.thumbnail}
                 alt={product.title}
@@ -22,11 +22,11 @@ const Projects = () => {
                 height={2000}
                 className='w-full h-56'
               />
-              <div className='flex flex-col gap-2 py-3 px-4 h-full'>
+              <div className='flex flex-col gap-2 py-3 px-4 h-full justify-between'>
                 <p className=' education-title-size font-bold text-muted-foreground/90 '>
                   {product.title}
                 </p>
-                <p className='text-neutral-500 education-size mt-2 dark:text-neutral-300 line-clamp-2'>
+                <p className='text-neutral-500 education-size mt-2 dark:text-neutral-300 line-clamp-2 flex-1'>
                   {product.description}
                 </p>
                 <div className='flex justify-between items-center mt-4'>
@@ -55,9 +55,4 @@ const Projects = () => {
     </>
   )
 }
-export default Projects
-{
-  /**
-    <HeroParallax products={products} />
-*/
-}
+export default Projects 

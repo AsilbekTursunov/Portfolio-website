@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 import React from 'react'
-import { aboutAuthor } from '@/constans'
+import { aboutAuthor } from '@/constants'
 import { Meteors } from './ui/meteors'
 import Image from 'next/image'
 const Skills = () => {
