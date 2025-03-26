@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 import {
   Sheet,
   SheetClose,
@@ -39,7 +39,7 @@ const navItems = [
     icon: '',
   },
 ]
-const Navbar = () => {
+const Navbar = () => { 
   return (
     <div className='bg-[#020817] sticky top-0 w-full z-50' id='main'>
       <div className='container flex justify-between py-6 pr-5 pl-5 '>
@@ -54,7 +54,7 @@ const Navbar = () => {
           <p className='text-3xl font-normal  text-white hidden md:block '>
             <span className='text-amber-500  '>Tursunov/</span>Asilbek
           </p>
-        </Link>
+        </Link> 
         <ul className='hidden lg:flex items-center justify-center gap-4  '>
           {navItems.map(item => (
             <li key={item.name} className='group  rounded-md  transition-all py-1 px-2'>
