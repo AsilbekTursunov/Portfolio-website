@@ -165,12 +165,12 @@ export const aboutAuthor = {
     {
       id: randomUUID,
       name: 'React Native',
-      icon: '/skill-6.png',
+      icon: '/skill-22.png',
     },
     {
       id: randomUUID,
       name: 'NativeWind',
-      icon: '/skill-6.png',
+      icon: '/skill-22.png',
     },
   ],
 }
