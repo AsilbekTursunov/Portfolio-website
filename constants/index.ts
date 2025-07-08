@@ -218,7 +218,7 @@ export const products = [
 	},
 	{
 		title: 'Elektric Fam',
-		link: 'https://electric-farm.netlify.app/',
+		link: 'https://electric-fam-ko.vercel.app/',
 		description:
 			"Bu loyiha korea kompaniyasi uchun qilinan. Asosan ma'lumotlar kiritsh uchun. Bu kompaniya ichkilari haqida ma'lumot olish ko'rsatilgan",
 		thumbnail: '/project-11.jpg',
