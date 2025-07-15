@@ -232,4 +232,12 @@ export const products = [
 		thumbnail: '/project-12.png',
 		skills: ['/skill-6.png', '/skill-9.png', '/skill-10.png'],
 	},
+	{
+		title: 'Stream and Messaging chat platform',
+		link: 'https://chatty-stream-app.vercel.app/',
+		description:
+			"Bu loyihada foydalanuvchilar asosan til o'rganish do'stlar bilan yozishish va video qo'ng'iroqlar qilshi maqsadida qilingan bir foydalanuchi boshqasida do'st taklifini yuboradi va yuborilgan odam uni qabul qilsagina ular chat qilishlari mumkin",
+		thumbnail: '/project-13.png',
+		skills: ['/skill-11.png', '/skill-9.png', '/skill-10.png', '/skill-14.png', '/skill-15.png'],
+	},
 ]
