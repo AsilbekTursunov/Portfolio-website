@@ -7,7 +7,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const UserCard = () => {
 	return (
-		<div className='flex flex-1 w-full flex-col justify-between h-[580px]  relative bg-secondyDark rounded-[5px] shadow-xl z-20 shadow-zinc-900 overflow-hidden'>
+		<div className='flex flex-1 w-full flex-col justify-between h-[620px]  relative bg-secondyDark rounded-[5px] shadow-2xl z-20 shadow-zinc-900 overflow-hidden'>
 			<div className=' border  w-full'>
 				<Image
 					src={'https://i.pinimg.com/736x/20/e7/5c/20e75cca7b9bd0cf5a9a1b0944d32ce3.jpg'}
@@ -32,7 +32,11 @@ const UserCard = () => {
 				<h2 className='text-neutral-300 text-[34px] font-bold'>Asilbek Tursunov</h2>
 				<span className='text-neutral-300 text-sm '>
 					<Typewriter
-						words={['Programmer', 'Frontend Developer React | Vue']}
+						words={[
+							'Programmer',
+							'Frontend Developer React | Vue',
+							'Mobile Developer React Native',
+						]}
 						loop={Infinity}
 						cursor
 						cursorStyle='|'
@@ -41,7 +45,7 @@ const UserCard = () => {
 						delaySpeed={500}
 					/>
 				</span>
-				<div className='flex gap-2'>
+				<div className='flex gap-2 my-2'>
 					{socials.map(item => (
 						<Link
 							href={item.link}

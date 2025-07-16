@@ -3,19 +3,9 @@ import { randomUUID } from 'crypto'
 import { FaFacebook, FaLinkedin, FaInstagram, FaTelegram, FaGithub } from 'react-icons/fa'
 export const socials = [
 	{
-		id: 1,
-		image: FaFacebook,
-		link: 'mufeed.visualization',
-	},
-	{
 		id: 2,
 		image: FaLinkedin,
 		link: 'https://www.linkedin.com/in/asilbek-tursunov/',
-	},
-	{
-		id: 3,
-		image: FaInstagram,
-		link: 'https://www.instagram.com/mufeed.visualization/',
 	},
 	{
 		id: 4,

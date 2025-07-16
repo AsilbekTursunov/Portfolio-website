@@ -1,8 +1,10 @@
 'use client'
 
+import PageTransition from '@/components/PageTransition'
 import AboutMe from './AboutMe'
 import SideBar from './SideBar'
 import UserCard from './UserCard'
+import Resume from './Resume'
 
 const MainWrap = () => {
 	return (
@@ -13,8 +15,14 @@ const MainWrap = () => {
 				</div>
 				<UserCard />
 			</div>
-			<div className='w-[90%] lg:w-[720px] flex items-center flex-1 overflow-hidden border relative -left-8 lg:ml-3  '>
-				<AboutMe />
+			<div className='w-[90%] lg:w-[720px] border flex items-center flex-1 overflow-hidden  relative '>
+				<div className='w-full flex-1'>
+					<PageTransition>
+						<div className='overflow-hidden lg:h-[600px] flex-1'>
+							<Resume />
+						</div>
+					</PageTransition>
+				</div>
 			</div>
 		</div>
 	)

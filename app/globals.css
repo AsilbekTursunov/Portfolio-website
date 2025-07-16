@@ -56,9 +56,15 @@
 	@apply rounded-[5px] p-3 relative text-neutral-300 justify-center items-center cursor-pointer md:flex md:flex-col;
 }
 .aside-border {
-	@apply absolute w-full h-[1px] bg-gradient-to-l bottom-0 from-neutral-600 from-0% via-secondyDark via-75%;
+	@apply absolute w-full h-[1px] bg-gradient-to-l bottom-0 from-neutral-600 from-0% via-secondyDark via-100%;
 }
 
 .grad-border-tr {
-	@apply absolute w-full h-[1px] bg-gradient-to-r bottom-0 from-neutral-600 from-0% via-secondyDark via-75%;
+	@apply absolute w-full h-[1px] bg-gradient-to-r bottom-0 from-neutral-600 from-0% via-secondyDark via-100%;
+}
+.grad-border-tb {
+	@apply absolute h-full w-[1px] right-0 bg-gradient-to-b bottom-0 from-neutral-600 from-0% via-secondyDark via-100%;
+}
+.icon-b {
+	@apply rounded-full text-amber-500 border-amber-500 border flex items-center justify-center size-14;
 }

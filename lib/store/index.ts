@@ -6,6 +6,6 @@ interface ISide {
 }
 
 export const useSideBar = create<ISide>(set => ({
-	aside: '',
+	aside: '#about',
 	setAside: side => set({ aside: side }),
 }))
