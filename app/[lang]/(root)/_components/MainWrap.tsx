@@ -1,5 +1,6 @@
 'use client'
 
+import AboutMe from './AboutMe'
 import SideBar from './SideBar'
 import UserCard from './UserCard'
 
@@ -12,11 +13,8 @@ const MainWrap = () => {
 				</div>
 				<UserCard />
 			</div>
-			<div className='w-[90%] lg:w-[720px]  flex items-center'>
-				<div className='bg-secondyDark justify-center'>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ad quam iure
-					exercitationem. Doloremque ad perspiciatis quod suscipit consequatur earum.
-				</div>
+			<div className='w-[90%] lg:w-[720px] flex items-center flex-1 overflow-hidden border relative -left-8 lg:ml-3  '>
+				<AboutMe />
 			</div>
 		</div>
 	)

@@ -58,3 +58,7 @@
 .aside-border {
 	@apply absolute w-full h-[1px] bg-gradient-to-l bottom-0 from-neutral-600 from-0% via-secondyDark via-75%;
 }
+
+.grad-border-tr {
+	@apply absolute w-full h-[1px] bg-gradient-to-r bottom-0 from-neutral-600 from-0% via-secondyDark via-75%;
+}
