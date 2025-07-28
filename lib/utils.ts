@@ -22,3 +22,6 @@ export const changeLocale = (newLocale: string) => {
 	// Router orqali navigate qilamiz
 	return newPath
 }
+
+
+

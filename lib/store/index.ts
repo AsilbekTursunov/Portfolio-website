@@ -1,11 +1,11 @@
 import { create } from 'zustand'
 
-interface ISide {
-	aside: string
-	setAside: (side: string) => void
+export interface ISide {
+	aside: 'about' | 'resume' | 'projects'
+	setAside: (side: 'about' | 'resume' | 'projects') => void
 }
 
 export const useSideBar = create<ISide>(set => ({
-	aside: '#about',
+	aside: 'about',
 	setAside: side => set({ aside: side }),
 }))

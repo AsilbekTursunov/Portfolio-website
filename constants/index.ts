@@ -1,6 +1,5 @@
-import skills from '@/components/skills'
 import { randomUUID } from 'crypto'
-import { FaFacebook, FaLinkedin, FaInstagram, FaTelegram, FaGithub } from 'react-icons/fa'
+import { FaLinkedin, FaTelegram, FaGithub } from 'react-icons/fa'
 export const socials = [
 	{
 		id: 2,
@@ -167,30 +166,6 @@ export const aboutAuthor = {
 
 export const products = [
 	{
-		title: 'Modern Website design',
-		link: 'https://asilbektursunov.github.io/brainwave/',
-		description:
-			"Bu loyihada zamonaviy veb sayt dizayni ko'rsatilgan Tailwindcss ni o'rganish maqsadida tayyorlangan",
-		thumbnail: '/project-1.jpg',
-		skills: ['/skill-6.png', '/skill-9.png'],
-	},
-	{
-		title: 'Cryptoverse',
-		link: 'https://cryptverse-app.netlify.app/',
-		description:
-			"Bu loyihada kripto valyutalar haqida ma'lumotlar ko'rsatilgan. Bu loyiha React va Redux yordamida tayyorlangan",
-		thumbnail: '/project-3.jpg',
-		skills: ['/skill-6.png', '/skill-12.png'],
-	},
-	{
-		title: 'Coolpal Meal Recipes',
-		link: 'https://cookpal-six.vercel.app/',
-		description:
-			"Yangi taom retseptlari bilan tanishing. Bu loyiha React va Redux yordamida tayyorlangan. yangi ko'nikmalarni o'rganish maqsadida tayyorlangan",
-		thumbnail: '/project-2.jpg',
-		skills: ['/skill-11.png', '/skill-9.png', '/skill-10.png'],
-	},
-	{
 		title: 'Udev.io clone',
 		link: 'https://udev-clone.vercel.app/en',
 		description:
@@ -229,5 +204,43 @@ export const products = [
 			"Bu loyihada foydalanuvchilar asosan til o'rganish do'stlar bilan yozishish va video qo'ng'iroqlar qilshi maqsadida qilingan bir foydalanuchi boshqasida do'st taklifini yuboradi va yuborilgan odam uni qabul qilsagina ular chat qilishlari mumkin",
 		thumbnail: '/project-13.png',
 		skills: ['/skill-11.png', '/skill-9.png', '/skill-10.png', '/skill-14.png', '/skill-15.png'],
+	},
+]
+
+export const works = [
+	{
+		title: 'Udevs.com clone',
+		link: 'https://udev-clone.vercel.app/en',
+		description: 'project1desc',
+		thumbnail: '/project-8.jpg',
+		skills: ['Javascript', 'TailwindCss', 'Next.js', 'I18N'],
+	},
+	{
+		title: 'Dev.Blogs',
+		link: 'https://asilbek-dev-blogs.vercel.app/',
+		description: 'project2desc',
+		thumbnail: '/project-9.jpg',
+		skills: ['Typescript', 'Next.js', 'TailwindCss', 'GraphQl'],
+	},
+	{
+		title: 'Elektric Fam',
+		link: 'https://electric-fam-ko.vercel.app/',
+		description: 'project3desc',
+		thumbnail: '/project-11.jpg',
+		skills: ['Vue', 'Vuex', 'Sass/Scss', 'Element UI'],
+	},
+	{
+		title: 'Resume Builder',
+		link: 'https://resume-frontend-mu.vercel.app/',
+		description: 'project4desc',
+		thumbnail: '/project-12.png',
+		skills: ['React.js', 'TailwindCss', 'TypeScript', 'Nodejs'],
+	},
+	{
+		title: 'Stream and Messaging chat platform',
+		link: 'https://chatty-stream-app.vercel.app/',
+		description: 'project5desc',
+		thumbnail: '/project-13.png',
+		skills: ['Next.js', 'TailwindCss', 'Typescript', 'TanStack Query', 'Zustand'],
 	},
 ]
