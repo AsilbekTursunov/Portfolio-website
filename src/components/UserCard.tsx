@@ -62,14 +62,22 @@ const UserCard = () => {
 				</div>
 			</div>
 			<div className='   mt-20 w-full bottom-0    flex relative '>
-				<button className='text-neutral-200 border-r border-r-neutral-700 relative flex-1 flex p-4  gap-2 items-center justify-center'>
+				<Link
+					href={'/resume-en.pdf'}
+					target='_blank'
+					className='text-neutral-200 border-r border-r-neutral-700 relative flex-1 flex p-4  gap-2 items-center justify-center'
+				>
 					{t('downloaden')}
 					<Icon icon='hugeicons:file-download' width='16' height='16' />
-				</button>
-				<button className='text-neutral-200 flex-1 flex gap-2 p-4 items-center justify-center'>
+				</Link>
+				<Link
+					target='_blank'
+					href={'/resume-uz.pdf'}
+					className='text-neutral-200 flex-1 flex gap-2 p-4 items-center justify-center'
+				>
 					{t('downloaduz')}
 					<Icon icon='hugeicons:file-download' width='16' height='16' />
-				</button>
+				</Link>
 				<span className='aside-border top-0 '></span>
 			</div>
 		</div>

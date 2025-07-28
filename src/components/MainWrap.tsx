@@ -14,8 +14,11 @@ const sections = {
 	resume: <Resume />,
 	projects: <Projects />,
 }
+
+type SectionKey = keyof typeof sections
+
 const MainWrap = () => {
-	const { aside } = useSideBar()
+	const { aside } = useSideBar() as { aside: SectionKey }
 	return (
 		<div className='flex flex-col lg:flex-row'>
 			<div className='w-[100%]  lg:w-[480px] xl:w-[540px] lg:gap-2 flex flex-row h-fit relative '>

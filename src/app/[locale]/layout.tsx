@@ -5,6 +5,7 @@ import { hasLocale, NextIntlClientProvider } from 'next-intl'
 import './globals.css'
 import { routing } from '@/src/i18n/routing'
 import { notFound } from 'next/navigation'
+import { getMessages } from 'next-intl/server'
 const inter = Poppins({
 	subsets: ['latin'],
 	weight: ['100', '200', '300', '400', '500', '700', '800', '900'],
@@ -30,6 +31,7 @@ export interface Props extends ChildProps {
 
 export default async function RootLayout({ children, params }: Props) {
 	const { locale } = await params
+	const messages = await getMessages()
 	if (!hasLocale(routing.locales, locale)) {
 		notFound()
 	}
@@ -37,7 +39,9 @@ export default async function RootLayout({ children, params }: Props) {
 	return (
 		<html lang={locale} className='scroll-smooth'>
 			<body className={`${lekton.className} overflow-x-hidden `}>
-				<NextIntlClientProvider>{children}</NextIntlClientProvider>
+				<NextIntlClientProvider locale={locale} messages={messages}>
+					{children}
+				</NextIntlClientProvider>
 			</body>
 		</html>
 	)
