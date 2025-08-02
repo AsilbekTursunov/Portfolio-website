@@ -14,10 +14,10 @@ const SideBtn = ({ onClick, href, iconName, label, isLast = false, isActive }: I
 	return (
 		<Button
 			onClick={onClick}
-			className={`aside-btn hover:bg-transparent bg-transparent no-underline max-lg:flex`}
+			className={`aside-btn hover:bg-transparent bg-transparent no-underline`}
 		>
 			<Icon icon={iconName} width='24' height='24' className={isActive ? 'text-amber-500' : ''} />
-			<span className={` lg:flex ${isActive ? 'text-amber-500' : ''}`}>{label}</span>
+			<span className={`hidden lg:flex ${isActive ? 'text-amber-500' : ''}`}>{label}</span>
 			{!isLast && <span className='aside-border hidden lg:flex' />}
 		</Button>
 	)

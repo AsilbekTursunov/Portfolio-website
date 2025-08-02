@@ -17,11 +17,11 @@ const SideBar = () => {
 
 	return (
 		<div className='flex max-lg:border-t max-lg:border-t-neutral-600 max-lg:left-0 max-lg:w-full max-lg:fixed lg:top-0  max-lg:bottom-0 lg:flex-col lg:gap-2 lg:w-[80px] z-50 lg:-left-[90px]'>
-			<div className='bg-secondyDark max-lg:w-[40%] relative  flex lg:flex-col items-center justify-center lg:rounded-[5px] overflow-hidden'>
+			<div className='bg-secondyDark  max-lg:w-[40%] relative  flex lg:flex-col items-center justify-center lg:rounded-[5px] overflow-hidden'>
 				<Link
 					href={pathName}
 					locale='uz'
-					className={`rounded-[5px]  p-4 max-lg:flex-1  cursor-pointer ${
+					className={`rounded-[5px]  text-center p-4 max-lg:flex-1  cursor-pointer ${
 						pathname == '/uz' ? 'text-amber-500' : 'text-neutral-300'
 					}`}
 				>
@@ -30,7 +30,7 @@ const SideBar = () => {
 				<Link
 					href={pathName}
 					locale='en'
-					className={`rounded-[5px]  p-4 max-lg:flex-1 cursor-pointer ${
+					className={`rounded-[5px] text-center p-4 max-lg:flex-1 cursor-pointer ${
 						pathname == '/en' ? 'text-amber-500' : 'text-neutral-300'
 					}`}
 				>
@@ -38,7 +38,7 @@ const SideBar = () => {
 				</Link>
 				<span className=' lg:hidden grad-border-tb ' />
 			</div>
-			<div className='bg-secondyDark max-lg:flex-1  flex lg:flex-col lg:rounded-[5px] overflow-hidden max-lg:justify-around'>
+			<div className='bg-secondyDark max-lg:flex-1  flex lg:flex-col max-lg:items-center lg:rounded-[5px] overflow-hidden max-lg:justify-around'>
 				<SideBtn
 					href='#about'
 					onClick={() => setAside('about')}
