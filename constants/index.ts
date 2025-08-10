@@ -243,4 +243,11 @@ export const works = [
 		thumbnail: '/project-13.png',
 		skills: ['Next.js', 'TailwindCss', 'Typescript', 'TanStack Query', 'Zustand'],
 	},
+	{
+		title: 'Recommed books mobile app world wide',
+		link: 'https://drive.google.com/drive/folders/1mFd6DO84Uf2j5Cj-jYQ0_qwTuz62soKd?usp=sharing',
+		description: 'project5desc',
+		thumbnail: '/project-14.png',
+		skills: ['React Native', 'Node.js', 'Typescript', 'MongoDb', 'ExpoGo'],
+	},
 ]
