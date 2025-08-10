@@ -2,14 +2,7 @@
 import createNextIntlPlugin from 'next-intl/plugin'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	images: {
-		domains: [
-			'aceternity.com',
-			'images.unsplash.com',
-			'www.youtube.com',
-			'api.microlink.io',
-			'pin.it',
-		],
+	images: { 
 		remotePatterns: [
 			{
 				protocol: 'https',

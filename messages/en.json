@@ -53,6 +53,7 @@
 	"project3desc": "This project was made for a Korean company. Mainly for data entry. It is shown to get information about the company's internals.",
 	"project4desc": "This project is designed to create a resume. This project is built using React.js, Typescript, Tailwindcss",
 	"project5desc": "This project is mainly designed to allow users to chat with friends, learn languages, and make video calls. One user sends a friend request to another user, and only if the person they sent it accepts can they chat.",
+	"project6desc": "In this project, users can recommend books they have read to other people, including the book title, picture rating, and a comment about the book.",
 	"contact": "Contact",
 	"message": "Message",
 	"send": "Send message",

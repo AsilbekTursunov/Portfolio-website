@@ -246,7 +246,7 @@ export const works = [
 	{
 		title: 'Recommed books mobile app world wide',
 		link: 'https://drive.google.com/drive/folders/1mFd6DO84Uf2j5Cj-jYQ0_qwTuz62soKd?usp=sharing',
-		description: 'project5desc',
+		description: 'project6desc',
 		thumbnail: '/project-14.png',
 		skills: ['React Native', 'Node.js', 'Typescript', 'MongoDb', 'ExpoGo'],
 	},

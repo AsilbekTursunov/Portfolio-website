@@ -29,7 +29,7 @@ const Projects = () => {
 								alt={item.title}
 								width={500}
 								height={500}
-								className='xl:w-72 md:h-full h-64 w-full '
+								className='xl:w-72 md:h-full h-64 w-full object-contain '
 							/>
 							<div className='space-y-4 px-4 relative'>
 								<span className='grad-border-tr top-0 left-0' />
