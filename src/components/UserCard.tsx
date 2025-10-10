@@ -23,7 +23,7 @@ const UserCard = () => {
 			<div className=' flex-1 flex-col  justify-between  box-content h-20 rounded-t-[50%] -top-14 relative w-full flex items-center  bg-secondyDark'>
 				<div className='relative'>
 					<Image
-						src={'/asilbek.jpg'}
+						src={'/dev-image.jpg'}
 						alt='userimage'
 						width={1000}
 						height={1000}

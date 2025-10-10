@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Poppins, Lekton } from 'next/font/google'
 import { ChildProps } from '@/types'
 import { hasLocale, NextIntlClientProvider } from 'next-intl'
@@ -6,10 +6,6 @@ import './globals.css'
 import { routing } from '@/src/i18n/routing'
 import { notFound } from 'next/navigation'
 import { getMessages } from 'next-intl/server'
-const inter = Poppins({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '700', '800', '900'],
-})
 
 const lekton = Lekton({
 	subsets: ['latin'],
@@ -20,13 +16,20 @@ const lekton = Lekton({
 export const metadata: Metadata = {
 	title: 'Asilbek Tursunov',
 	description: ` Asilbek Tursunov — Frontend Developer / Dasturchi. React, Vue, Next.js texnologiyalarida yaratilgan portfolio va loyihalar bilan tanishing. Focused on quality, innovation, and modern web development. `,
-	icons: {
-		icon: ['/site-logo-2.png'],
-	},
+	manifest: '/manifest.json',
+	icons: [
+		{ rel: 'icon', url: '/icons/icon-192x192.png' },
+		{ rel: 'apple-touch-icon', url: '/icons/icon-512x512.png' },
+	],
 }
 
 export interface Props extends ChildProps {
 	params: Promise<{ locale: string }>
+}
+
+// ✅ Yangi: themeColor ni shu yerga yozamiz
+export const viewport: Viewport = {
+	themeColor: '#0070f3',
 }
 
 export default async function RootLayout({ children, params }: Props) {
