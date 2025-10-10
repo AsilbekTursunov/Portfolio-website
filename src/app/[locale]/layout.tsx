@@ -18,8 +18,8 @@ export const metadata: Metadata = {
 	description: ` Asilbek Tursunov — Frontend Developer / Dasturchi. React, Vue, Next.js texnologiyalarida yaratilgan portfolio va loyihalar bilan tanishing. Focused on quality, innovation, and modern web development. `,
 	manifest: '/manifest.json',
 	icons: [
-		{ rel: 'icon', url: '/icons/icon-192x192.png' },
-		{ rel: 'apple-touch-icon', url: '/icons/icon-512x512.png' },
+		{ rel: 'icon', url: '/site-logo.png' },
+		{ rel: 'apple-touch-icon', url: '/site-logo.png' },
 	],
 }
 
