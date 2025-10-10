@@ -23,12 +23,12 @@ const UserCard = () => {
 			<div className=' flex-1 flex-col  justify-between  box-content h-20 rounded-t-[50%] -top-14 relative w-full flex items-center  bg-secondyDark'>
 				<div className='relative'>
 					<Image
-						src={'/dev-image.jpg'}
+						src={'/me.jpg'}
 						alt='userimage'
 						width={1000}
 						height={1000}
 						unoptimized
-						className=' relative z-10 -top-14 object-cover size-32 rounded-full '
+						className=' relative z-10 -top-14 object-top object-cover size-32 rounded-full '
 					/>
 					<span className='absolute size-32 -top-12 -left-2 z-0 bg-gradient-to-br rounded-full from-yellow-400/70 to-yellow-500/10'></span>
 				</div>
