@@ -133,6 +133,10 @@ const Resume = () => {
 							<li>React Native</li>
 							<li>Zustand</li>
 							<li>TanStack Query</li>
+							<li>Strapi</li>
+							<li>Vitest</li>
+							<li>Gatsby</li>
+							<li>PWA (Web App)</li>
 						</ul>
 						<ul className='space-y-2 list-none flex-1'>
 							<li>TailwindCss</li>

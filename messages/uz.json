@@ -54,6 +54,8 @@
 	"project4desc": "Bu loyiha resume yaratish uchun tayyorlangan. Bu loyiha React.js, Typescript, Tailwindcss yordamida tayyorlangan",
 	"project5desc": "Bu loyihada foydalanuvchilar asosan til o'rganish do'stlar bilan yozishish va video qo'ng'iroqlar qilshi maqsadida qilingan bir foydalanuchi boshqasida do'st taklifini yuboradi va yuborilgan odam uni qabul qilsagina ular chat qilishlari mumkin",
 	"project6desc": "Bu loyihada foydalanuvchilar o'zlari o'qib chiqqan kitoblari boshqa insonlariga tavfsiya etishida unda kitob nomi, rasmi reytingi va kitob haqida izoh yozish mumkin",
+	"project7desc": "Men React.js, Zustand, Tailwindcss yordamida musiqa pleer yaratdim. Bu loyihada siz musiqa ijro etish, pauza qilish, keyingi, oldingi musiqani boshqarishingiz mumkin. Shuningdek, musiqaning davomiyligini ko'rishingiz va ovoz balandligini boshqarishingiz mumkin.",
+	"project8desc": "Bu dasturiy ta'minot ishlab chiquvchilar, texnologiya va veb-ishlab chiqish haqida maqolalarni o'qishingiz mumkin bo'lgan blog veb-sayti. Bu Chakra UI, React.js, Rest API, Strapi, TanStack Query, Zod, React Hook Form yordamida FullStack Developer sifatida yaratilgan.",
 	"contact": "Aloqa",
 	"message": "Xabar",
 	"send": "Jo'natish",

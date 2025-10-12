@@ -250,4 +250,18 @@ export const works = [
 		thumbnail: '/project-14.png',
 		skills: ['React Native', 'Node.js', 'Typescript', 'MongoDb', 'ExpoGo'],
 	},
+	{
+		title: 'Music Player',
+		link: 'https://webapp-music-player.netlify.app/',
+		description: 'project7desc',
+		thumbnail: '/project-15.png',
+		skills: ['Typescript', 'Zustand', 'Tailwindcss', 'React.js', 'Vite/PWA'],
+	},
+	{
+		title: 'Blog Website',
+		link: 'https://strapi-blog-app.vercel.app/',
+		description: 'project8desc',
+		thumbnail: '/project-16.png',
+		skills: ['Typescript', 'Zod', 'Chakra UI', 'React.js', 'Vite', 'Strapi', 'TanStack Query'],
+	},
 ]

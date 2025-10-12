@@ -4,8 +4,8 @@
   "description": "Portfolio website about developr",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#070a11",
-  "theme_color": "#101625",
+  "background_color": "#0d1217",
+  "theme_color": "#0d1217",
   "icons": [
     {
       "src": "icons/icon-48x48.png",

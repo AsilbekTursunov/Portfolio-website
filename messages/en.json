@@ -54,6 +54,8 @@
 	"project4desc": "This project is designed to create a resume. This project is built using React.js, Typescript, Tailwindcss",
 	"project5desc": "This project is mainly designed to allow users to chat with friends, learn languages, and make video calls. One user sends a friend request to another user, and only if the person they sent it accepts can they chat.",
 	"project6desc": "In this project, users can recommend books they have read to other people, including the book title, picture rating, and a comment about the book.",
+	"project7desc": "I have create music player using React.js, Zustand, Tailwindcss. In this project you can play,pause,next,previous music. Also you can see the duration of the music and control the volume.",
+	"project8desc": "This is blog website where you can read articles about programming, technology, and web development. It is built using Chakra UI, React.js, Rest API, Strapi, TanStack Query, Zod, React Hook Form as FullStack Developer.",
 	"contact": "Contact",
 	"message": "Message",
 	"send": "Send message",
