@@ -237,7 +237,7 @@ export const works = [
 		skills: ['React.js', 'TailwindCss', 'TypeScript', 'Nodejs'],
 	},
 	{
-		title: 'Stream and Messaging chat platform',
+		title: 'Stream and Messaging chat platform ',
 		link: 'https://chatty-stream-app.vercel.app/',
 		description: 'project5desc',
 		thumbnail: '/project-13.png',
