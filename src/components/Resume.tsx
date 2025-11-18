@@ -73,6 +73,61 @@ const Resume = () => {
 									</div>
 								</div>
 							</div>
+							<div className='relative pt-4'>
+								<span className='absolute -left-6 -top-8 w-[1px] h-[110%] bg-neutral-600' />
+								<span className='grad-border-tr top-0  -left-6' />
+
+								<span
+									id='date'
+									className='border relative p-1 px-2 text-sm border-neutral-400 inline-block rounded-[5px] text-neutral-400 '
+								>
+									2025/08 - 2025/09
+									<span className='size-2 bg-neutral-400 rounded-full top-1/2 -translate-y-1/2 absolute -left-7' />
+								</span>
+								<div className=' flex flex-col gap-2 mt-2'>
+									<p className='text-lg font-bold text-neutral-100'>
+										Frontend React/Next Developer
+									</p>
+									<p className='text-sm font-normal text-neutral-400'>Soff Hub</p>
+									<div className='text-xs font-normal text-neutral-400 mt-2'>
+										<ul className='space-y-2 list-disc'>
+											<li>{t('soffhubone')}</li>
+											<li>{t('soffhubtwo')}</li>
+											<li>{t('soffhubthree')}</li>
+											<li>{t('soffhubfour')}</li>
+											<li>{t('soffhubfive')}</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div className='relative pt-4'>
+								<span className='absolute -left-6 -top-10 w-[1px] h-[110%] bg-neutral-600' />
+								<span className='grad-border-tr top-0  -left-6' />
+
+								<span
+									id='date'
+									className='border relative p-1 px-2 text-sm border-neutral-400 inline-block rounded-[5px] text-neutral-400 '
+								>
+									2025/09 - 2025/11
+									<span className='size-2 bg-neutral-400 rounded-full top-1/2 -translate-y-1/2 absolute -left-7' />
+								</span>
+								<div className=' flex flex-col gap-2 mt-2'>
+									<p className='text-lg font-bold text-neutral-100'>
+										Frontend React/Next Developer
+									</p>
+									<p className='text-sm font-normal text-neutral-400'>Udevs</p>
+									<div className='text-xs font-normal text-neutral-400 mt-2'>
+										<ul className='space-y-2 list-disc'>
+											<li>{t('udevsone')}</li>
+											<li>{t('udevstwo')}</li>
+											<li>{t('udevsthree')}</li>
+											<li>{t('udevsfour')}</li>
+											<li>{t('udevsfive')}</li>
+											<li>{t('udevssix')}</li>
+										</ul>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div className='px-4 py-4 relative'>
