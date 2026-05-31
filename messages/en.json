@@ -1,7 +1,7 @@
 {
 	"headerone": "About Me",
 	"aboutTitle": "Hello! I am Asilbek Tursunov",
-	"bio": "Self-motivated Frontend Developer with 8 months of experience in building modern and responsive web applications using React and Vue. Successfully completed over 20 personal and team-based projects, gaining strong skills in component-based architecture, state management, and UI libraries. Learned through self-study and online courses, demonstrating the ability to quickly adapt, solve problems, and deliver quality solutions. Passionate about writing clean code, improving user experience, and contributing to collaborative development environments.",
+	"bio": "I'm a frontend developer specializing in React and Next.js, focused on building scalable, production-ready web applications. From complex financial dashboards to multi-language e-commerce platforms, I enjoy turning intricate requirements into clean, performant interfaces.\n\n\nI care deeply about architecture and developer experience: scalable MobX store design, TanStack Query caching strategies, and reusable component systems.",
 	"pdetails": "Personal details",
 	"name": "Fullname",
 	"age": "Age",
@@ -71,6 +71,6 @@
 	"message": "Message",
 	"send": "Send message",
 	"about": "About",
-	"downloaden": "Download En CV",
-	"downloaduz": "Download Uz CV"
+	"downloaden": "Download Resume",
+	"downloaduz": "Download Uz Resume"
 }

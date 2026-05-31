@@ -1,7 +1,7 @@
 {
 	"headerone": "Men haqimda",
 	"aboutTitle": "Salom! Mening ismim Asilbek Tursunov",
-	"bio": "O‘zini o‘zi rag‘batlantiradigan Frontend dasturchi, React va Vue yordamida zamonaviy va moslashuvchan veb-ilovalarni yaratishda 8 oylik tajribaga ega. 20 dan ortiq shaxsiy va jamoaviy loyihalarni muvaffaqiyatli yakunlab, komponentga asoslangan arxitektura, holatni boshqarish va UI kutubxonalar bilan ishlash bo‘yicha kuchli ko‘nikmalarga ega bo‘ldi. Mustaqil o‘rganish va onlayn kurslar orqali bilim olgan, bu esa muammolarni tez hal qilish, moslashish va sifatli yechimlar yetkazish qobiliyatini ko‘rsatadi. Toza kod yozish, foydalanuvchi tajribasini yaxshilash va jamoaviy ishlarga hissa qo‘shishga qiziqadi.",
+	"bio": "Men React va Next.js bo'yicha ixtisoslashgan frontend dasturchisiman, kengaytiriladigan, ishlab chiqarishga tayyor veb-ilovalarni yaratishga ixtisoslashganman. Murakkab moliyaviy boshqaruv panellaridan tortib ko'p tilli elektron tijorat platformalarigacha, men murakkab talablarni toza, samarali interfeyslarga aylantirishni yoqtiraman. Men arxitektura va dasturchi tajribasiga juda ahamiyat beraman: kengaytiriladigan MobX ombor boshqaruv tizimi, TanStack Query keshlash strategiyalari va qayta ishlatiladigan komponent tizimlari.",
 	"pdetails": "Shaxsiy ma'lumotlar",
 	"name": "Ism Sharif",
 	"age": "Yosh",
@@ -69,6 +69,6 @@
 	"message": "Xabar",
 	"send": "Jo'natish",
 	"about": "Men",
-	"downloaden": "Inglizcha CV Yuklash",
-	"downloaduz": "O'zbekcha CV Yuklash"
+	"downloaden": "Inglizcha Rezyume Yuklash",
+	"downloaduz": "O'zbekcha Rezyume Yuklash"
 }

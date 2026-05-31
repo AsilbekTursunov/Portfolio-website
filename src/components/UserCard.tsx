@@ -1,11 +1,10 @@
 'use client'
 import { socials } from '@/constants'
+import { Icon } from '@iconify/react'
+import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Icon } from '@iconify/react'
-import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
-import { useTranslations } from 'next-intl'
 
 const UserCard = () => {
 	const t = useTranslations()
@@ -63,19 +62,11 @@ const UserCard = () => {
 			</div>
 			<div className='   mt-20 w-full bottom-0    flex relative '>
 				<Link
-					href={'/resume-en.pdf'}
+					href={'/asilbek-resume.pdf'}
 					target='_blank'
-					className='text-neutral-200 border-r border-r-neutral-700 relative flex-1 flex p-4  gap-2 items-center justify-center'
+					className='text-neutral-200  border-r-neutral-700 relative flex-1 flex p-4  gap-2 items-center justify-center'
 				>
 					{t('downloaden')}
-					<Icon icon='hugeicons:file-download' width='16' height='16' />
-				</Link>
-				<Link
-					target='_blank'
-					href={'/resume-uz.pdf'}
-					className='text-neutral-200 flex-1 flex gap-2 p-4 items-center justify-center'
-				>
-					{t('downloaduz')}
 					<Icon icon='hugeicons:file-download' width='16' height='16' />
 				</Link>
 				<span className='aside-border top-0 '></span>
